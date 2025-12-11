@@ -1,0 +1,2243 @@
+{
+  "timestamp": "20251207_210535",
+  "environment": "convention",
+  "method": "LeaderFollower",
+  "n_iterations": 100,
+  "aggregated_metrics": {
+    "robot": {
+      "time_to_goal_mean": 546.16,
+      "time_to_goal_std": 35.49921689277103,
+      "time_to_goal_min": 330,
+      "time_to_goal_max": 600,
+      "collision_rate": 0.02,
+      "path_efficiency_mean": 1.470986723289268,
+      "path_efficiency_std": 0.05644687512135158,
+      "path_efficiency_min": 1.3697030744753582,
+      "path_efficiency_max": 1.6895288521041572,
+      "avg_speed_mean": 0.7425700325790854,
+      "avg_speed_std": 0.020663075432088018,
+      "avg_speed_min": 0.7088468138293785,
+      "avg_speed_max": 0.8430743316277091,
+      "path_smoothness_mean": 0.7197801368464479,
+      "path_smoothness_std": 0.04870293316234181,
+      "path_smoothness_min": 0.6222843135652515,
+      "path_smoothness_max": 0.9278907943883159,
+      "change_in_human_acc_mean": 1765.14,
+      "change_in_human_acc_std": 198.79939738339252,
+      "change_in_human_acc_min": 1267,
+      "change_in_human_acc_max": 2491,
+      "min_human_dist_mean": 0.6835244870170334,
+      "min_human_dist_std": 0.04031606788641618,
+      "min_human_dist_min": 0.5397321542461124,
+      "min_human_dist_max": 0.7705519720577878
+    },
+    "summary": {
+      "total_runs": 100,
+      "successful_runs": 0,
+      "collision_runs": 2,
+      "timeout_runs": 4
+    }
+  },
+  "all_runs": [
+    {
+      "iteration": 1,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 565,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 565,
+          "collision": false,
+          "path_efficiency": 1.502459683758013,
+          "avg_speed": 0.7380008554088516,
+          "path_smoothness": 0.7188583134213951,
+          "change_in_human_acc": 1786,
+          "min_human_dist": 0.6195860926126077
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 600,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "Timeout"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 600,
+          "collision": false,
+          "path_efficiency": 1.6105804951194191,
+          "avg_speed": 0.7165673776876903,
+          "path_smoothness": 0.8382070280862313,
+          "change_in_human_acc": 2073,
+          "min_human_dist": 0.6419939774510828
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 549,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 549,
+          "collision": false,
+          "path_efficiency": 1.4544920481847325,
+          "avg_speed": 0.7357771812965676,
+          "path_smoothness": 0.6853079455503935,
+          "change_in_human_acc": 1553,
+          "min_human_dist": 0.6924972182722907
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 542,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 542,
+          "collision": false,
+          "path_efficiency": 1.4535488326116752,
+          "avg_speed": 0.7452738620571048,
+          "path_smoothness": 0.7086280868301403,
+          "change_in_human_acc": 1446,
+          "min_human_dist": 0.6468497231669729
+        }
+      }
+    },
+    {
+      "iteration": 5,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 548,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 548,
+          "collision": false,
+          "path_efficiency": 1.4939034228622325,
+          "avg_speed": 0.757512759879336,
+          "path_smoothness": 0.6670464575276918,
+          "change_in_human_acc": 1800,
+          "min_human_dist": 0.7120301989722158
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 523,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 523,
+          "collision": false,
+          "path_efficiency": 1.3966839997133926,
+          "avg_speed": 0.7424416153876516,
+          "path_smoothness": 0.6413498213970936,
+          "change_in_human_acc": 1661,
+          "min_human_dist": 0.7320341966351346
+        }
+      }
+    },
+    {
+      "iteration": 7,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 544,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 544,
+          "collision": false,
+          "path_efficiency": 1.4676904168740128,
+          "avg_speed": 0.7496234050408429,
+          "path_smoothness": 0.7395689278061727,
+          "change_in_human_acc": 1841,
+          "min_human_dist": 0.6930543786645365
+        }
+      }
+    },
+    {
+      "iteration": 8,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 569,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 569,
+          "collision": false,
+          "path_efficiency": 1.4873870898248396,
+          "avg_speed": 0.725916932147708,
+          "path_smoothness": 0.7363341494557842,
+          "change_in_human_acc": 1597,
+          "min_human_dist": 0.6464741642395386
+        }
+      }
+    },
+    {
+      "iteration": 9,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.4516580974183315,
+          "avg_speed": 0.738775988032566,
+          "path_smoothness": 0.7322471805891652,
+          "change_in_human_acc": 1650,
+          "min_human_dist": 0.664092833733869
+        }
+      }
+    },
+    {
+      "iteration": 10,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 560,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 560,
+          "collision": false,
+          "path_efficiency": 1.4722646669539594,
+          "avg_speed": 0.7305701589002964,
+          "path_smoothness": 0.7155099439102393,
+          "change_in_human_acc": 1709,
+          "min_human_dist": 0.6439295071584012
+        }
+      }
+    },
+    {
+      "iteration": 11,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 531,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 531,
+          "collision": false,
+          "path_efficiency": 1.4627711711451512,
+          "avg_speed": 0.7646401161642706,
+          "path_smoothness": 0.6840052802604099,
+          "change_in_human_acc": 1630,
+          "min_human_dist": 0.697645456026927
+        }
+      }
+    },
+    {
+      "iteration": 12,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 570,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 570,
+          "collision": false,
+          "path_efficiency": 1.5379690835328805,
+          "avg_speed": 0.7497041013332685,
+          "path_smoothness": 0.8022804786146108,
+          "change_in_human_acc": 2061,
+          "min_human_dist": 0.695104439548699
+        }
+      }
+    },
+    {
+      "iteration": 13,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 539,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 539,
+          "collision": false,
+          "path_efficiency": 1.471968232668191,
+          "avg_speed": 0.7587548532673563,
+          "path_smoothness": 0.7063762618806231,
+          "change_in_human_acc": 1779,
+          "min_human_dist": 0.6859488816448353
+        }
+      }
+    },
+    {
+      "iteration": 14,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 540,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 540,
+          "collision": false,
+          "path_efficiency": 1.4302010012035178,
+          "avg_speed": 0.735670669458174,
+          "path_smoothness": 0.6704462619041064,
+          "change_in_human_acc": 1720,
+          "min_human_dist": 0.7705519720577878
+        }
+      }
+    },
+    {
+      "iteration": 15,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 558,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 558,
+          "collision": false,
+          "path_efficiency": 1.4577171327248437,
+          "avg_speed": 0.7251433324458264,
+          "path_smoothness": 0.6914812758792881,
+          "change_in_human_acc": 1833,
+          "min_human_dist": 0.6822628826778095
+        }
+      }
+    },
+    {
+      "iteration": 16,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 540,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 540,
+          "collision": false,
+          "path_efficiency": 1.4384548178339027,
+          "avg_speed": 0.740527133229091,
+          "path_smoothness": 0.6995501136590034,
+          "change_in_human_acc": 1805,
+          "min_human_dist": 0.6507955124324368
+        }
+      }
+    },
+    {
+      "iteration": 17,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 562,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 562,
+          "collision": false,
+          "path_efficiency": 1.5116651063549909,
+          "avg_speed": 0.7466504079218472,
+          "path_smoothness": 0.7695036451438783,
+          "change_in_human_acc": 1980,
+          "min_human_dist": 0.655552412866436
+        }
+      }
+    },
+    {
+      "iteration": 18,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 539,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 539,
+          "collision": false,
+          "path_efficiency": 1.4691304353892927,
+          "avg_speed": 0.7566494088737813,
+          "path_smoothness": 0.7511349261445893,
+          "change_in_human_acc": 1864,
+          "min_human_dist": 0.6712084511790627
+        }
+      }
+    },
+    {
+      "iteration": 19,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 558,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 558,
+          "collision": false,
+          "path_efficiency": 1.4262712864647882,
+          "avg_speed": 0.7100571417527475,
+          "path_smoothness": 0.6986296876650063,
+          "change_in_human_acc": 1778,
+          "min_human_dist": 0.6652306454052779
+        }
+      }
+    },
+    {
+      "iteration": 20,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 543,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 543,
+          "collision": false,
+          "path_efficiency": 1.4431293802241636,
+          "avg_speed": 0.7379562060557812,
+          "path_smoothness": 0.7079732268789519,
+          "change_in_human_acc": 1895,
+          "min_human_dist": 0.7183817043568252
+        }
+      }
+    },
+    {
+      "iteration": 21,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 560,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 560,
+          "collision": false,
+          "path_efficiency": 1.432224443340872,
+          "avg_speed": 0.7097342668704072,
+          "path_smoothness": 0.6903421635081063,
+          "change_in_human_acc": 1713,
+          "min_human_dist": 0.6280345355356226
+        }
+      }
+    },
+    {
+      "iteration": 22,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 563,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 563,
+          "collision": false,
+          "path_efficiency": 1.4551324872633822,
+          "avg_speed": 0.7177781139606547,
+          "path_smoothness": 0.6922394820497547,
+          "change_in_human_acc": 1628,
+          "min_human_dist": 0.7491620085975768
+        }
+      }
+    },
+    {
+      "iteration": 23,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 532,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 532,
+          "collision": false,
+          "path_efficiency": 1.3919546500371358,
+          "avg_speed": 0.725872358788307,
+          "path_smoothness": 0.7038151867689881,
+          "change_in_human_acc": 1641,
+          "min_human_dist": 0.7598035831581103
+        }
+      }
+    },
+    {
+      "iteration": 24,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 547,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 547,
+          "collision": false,
+          "path_efficiency": 1.4155433296699835,
+          "avg_speed": 0.7193706077312391,
+          "path_smoothness": 0.7041093150471155,
+          "change_in_human_acc": 1873,
+          "min_human_dist": 0.7014564491797013
+        }
+      }
+    },
+    {
+      "iteration": 25,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 526,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 526,
+          "collision": false,
+          "path_efficiency": 1.404764894319965,
+          "avg_speed": 0.7415314534832484,
+          "path_smoothness": 0.685345294467345,
+          "change_in_human_acc": 1616,
+          "min_human_dist": 0.7166452538553707
+        }
+      }
+    },
+    {
+      "iteration": 26,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 522,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 522,
+          "collision": false,
+          "path_efficiency": 1.4185049383360229,
+          "avg_speed": 0.7539367936648296,
+          "path_smoothness": 0.6667544529552923,
+          "change_in_human_acc": 1680,
+          "min_human_dist": 0.6183756596901777
+        }
+      }
+    },
+    {
+      "iteration": 27,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 544,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 544,
+          "collision": false,
+          "path_efficiency": 1.4538092990836562,
+          "avg_speed": 0.7413965776826218,
+          "path_smoothness": 0.7128606657168481,
+          "change_in_human_acc": 1541,
+          "min_human_dist": 0.6817403651284573
+        }
+      }
+    },
+    {
+      "iteration": 28,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 557,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 557,
+          "collision": false,
+          "path_efficiency": 1.512483647803007,
+          "avg_speed": 0.7540619634215138,
+          "path_smoothness": 0.7295734695759358,
+          "change_in_human_acc": 1890,
+          "min_human_dist": 0.6846965188376531
+        }
+      }
+    },
+    {
+      "iteration": 29,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 584,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 584,
+          "collision": false,
+          "path_efficiency": 1.5025911434290837,
+          "avg_speed": 0.7139095982042784,
+          "path_smoothness": 0.7666950466702277,
+          "change_in_human_acc": 1721,
+          "min_human_dist": 0.6521275815495878
+        }
+      }
+    },
+    {
+      "iteration": 30,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.4367088739868132,
+          "avg_speed": 0.7299675794874885,
+          "path_smoothness": 0.7234352599383262,
+          "change_in_human_acc": 1537,
+          "min_human_dist": 0.7076863616878615
+        }
+      }
+    },
+    {
+      "iteration": 31,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 548,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 548,
+          "collision": false,
+          "path_efficiency": 1.478611796460117,
+          "avg_speed": 0.748804953297901,
+          "path_smoothness": 0.6957556654465388,
+          "change_in_human_acc": 1639,
+          "min_human_dist": 0.6723399033618094
+        }
+      }
+    },
+    {
+      "iteration": 32,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 539,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 539,
+          "collision": false,
+          "path_efficiency": 1.4135823926941655,
+          "avg_speed": 0.7275671142880569,
+          "path_smoothness": 0.7247218136028762,
+          "change_in_human_acc": 1768,
+          "min_human_dist": 0.6672808094354261
+        }
+      }
+    },
+    {
+      "iteration": 33,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 562,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 562,
+          "collision": false,
+          "path_efficiency": 1.455084999113008,
+          "avg_speed": 0.7196858522633646,
+          "path_smoothness": 0.6754213708391121,
+          "change_in_human_acc": 1547,
+          "min_human_dist": 0.6941822968680279
+        }
+      }
+    },
+    {
+      "iteration": 34,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 517,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 517,
+          "collision": false,
+          "path_efficiency": 1.3949036258419423,
+          "avg_speed": 0.7487131261291681,
+          "path_smoothness": 0.6762152011408609,
+          "change_in_human_acc": 1492,
+          "min_human_dist": 0.7028886699886899
+        }
+      }
+    },
+    {
+      "iteration": 35,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 543,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 543,
+          "collision": false,
+          "path_efficiency": 1.419548263662216,
+          "avg_speed": 0.725623179664086,
+          "path_smoothness": 0.6953003043481383,
+          "change_in_human_acc": 1838,
+          "min_human_dist": 0.7550432980893366
+        }
+      }
+    },
+    {
+      "iteration": 36,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.4496897033678617,
+          "avg_speed": 0.7363643968158522,
+          "path_smoothness": 0.7224895791731664,
+          "change_in_human_acc": 1686,
+          "min_human_dist": 0.6848104896834366
+        }
+      }
+    },
+    {
+      "iteration": 37,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 537,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 537,
+          "collision": false,
+          "path_efficiency": 1.4138757541590397,
+          "avg_speed": 0.7305575023013018,
+          "path_smoothness": 0.6639207751506732,
+          "change_in_human_acc": 1739,
+          "min_human_dist": 0.6445037650453974
+        }
+      }
+    },
+    {
+      "iteration": 38,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.463835480088713,
+          "avg_speed": 0.7439390441724667,
+          "path_smoothness": 0.7085566598603578,
+          "change_in_human_acc": 2000,
+          "min_human_dist": 0.6821452841199879
+        }
+      }
+    },
+    {
+      "iteration": 39,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 560,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 560,
+          "collision": false,
+          "path_efficiency": 1.472376235636269,
+          "avg_speed": 0.7293028029386995,
+          "path_smoothness": 0.7254949259853691,
+          "change_in_human_acc": 1707,
+          "min_human_dist": 0.6897321310861761
+        }
+      }
+    },
+    {
+      "iteration": 40,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.4154062174213073,
+          "avg_speed": 0.7197316838193122,
+          "path_smoothness": 0.6710064951031499,
+          "change_in_human_acc": 1760,
+          "min_human_dist": 0.7004385910105542
+        }
+      }
+    },
+    {
+      "iteration": 41,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 519,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 519,
+          "collision": false,
+          "path_efficiency": 1.405875285007664,
+          "avg_speed": 0.7516325410818223,
+          "path_smoothness": 0.6222843135652515,
+          "change_in_human_acc": 1766,
+          "min_human_dist": 0.720517588881158
+        }
+      }
+    },
+    {
+      "iteration": 42,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 586,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 586,
+          "collision": false,
+          "path_efficiency": 1.4958974503004618,
+          "avg_speed": 0.7088468138293785,
+          "path_smoothness": 0.78738272894046,
+          "change_in_human_acc": 1968,
+          "min_human_dist": 0.6913045336552559
+        }
+      }
+    },
+    {
+      "iteration": 43,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 509,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 509,
+          "collision": false,
+          "path_efficiency": 1.3906755384456335,
+          "avg_speed": 0.7588057489139723,
+          "path_smoothness": 0.6922949960588402,
+          "change_in_human_acc": 1707,
+          "min_human_dist": 0.7258014928377651
+        }
+      }
+    },
+    {
+      "iteration": 44,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 524,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 524,
+          "collision": false,
+          "path_efficiency": 1.3697030744753582,
+          "avg_speed": 0.7261933566602602,
+          "path_smoothness": 0.6558552325654807,
+          "change_in_human_acc": 1519,
+          "min_human_dist": 0.6993102141771343
+        }
+      }
+    },
+    {
+      "iteration": 45,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 543,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 543,
+          "collision": false,
+          "path_efficiency": 1.4571385286925518,
+          "avg_speed": 0.7454776029286425,
+          "path_smoothness": 0.6772590964559428,
+          "change_in_human_acc": 1805,
+          "min_human_dist": 0.7317074931865375
+        }
+      }
+    },
+    {
+      "iteration": 46,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 552,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 552,
+          "collision": false,
+          "path_efficiency": 1.4964855409074689,
+          "avg_speed": 0.7527704986955035,
+          "path_smoothness": 0.7519394319865494,
+          "change_in_human_acc": 1852,
+          "min_human_dist": 0.7177974442098982
+        }
+      }
+    },
+    {
+      "iteration": 47,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 515,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 515,
+          "collision": false,
+          "path_efficiency": 1.4237911532760628,
+          "avg_speed": 0.7682873549896713,
+          "path_smoothness": 0.6944044552648063,
+          "change_in_human_acc": 1846,
+          "min_human_dist": 0.7175101669736947
+        }
+      }
+    },
+    {
+      "iteration": 48,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 574,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 574,
+          "collision": false,
+          "path_efficiency": 1.578837485090658,
+          "avg_speed": 0.763276625361882,
+          "path_smoothness": 0.7493892739254066,
+          "change_in_human_acc": 2159,
+          "min_human_dist": 0.6574733139501876
+        }
+      }
+    },
+    {
+      "iteration": 49,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 600,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "Timeout"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 600,
+          "collision": false,
+          "path_efficiency": 1.6552857248980937,
+          "avg_speed": 0.746904698383986,
+          "path_smoothness": 0.8713827760929558,
+          "change_in_human_acc": 2134,
+          "min_human_dist": 0.6192493776311324
+        }
+      }
+    },
+    {
+      "iteration": 50,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 555,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 555,
+          "collision": false,
+          "path_efficiency": 1.4594634351676903,
+          "avg_speed": 0.7296108670489307,
+          "path_smoothness": 0.7061324842935555,
+          "change_in_human_acc": 1583,
+          "min_human_dist": 0.7646044979379362
+        }
+      }
+    },
+    {
+      "iteration": 51,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 575,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 575,
+          "collision": false,
+          "path_efficiency": 1.5363820592986388,
+          "avg_speed": 0.7413089343699141,
+          "path_smoothness": 0.7543590428781805,
+          "change_in_human_acc": 1966,
+          "min_human_dist": 0.6596981408069346
+        }
+      }
+    },
+    {
+      "iteration": 52,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 581,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 581,
+          "collision": false,
+          "path_efficiency": 1.4913120789040286,
+          "avg_speed": 0.7125234432767429,
+          "path_smoothness": 0.7378812256269873,
+          "change_in_human_acc": 1563,
+          "min_human_dist": 0.6721462505092849
+        }
+      }
+    },
+    {
+      "iteration": 53,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 539,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 539,
+          "collision": false,
+          "path_efficiency": 1.4316513837454614,
+          "avg_speed": 0.7376254876848158,
+          "path_smoothness": 0.6970122388460677,
+          "change_in_human_acc": 1816,
+          "min_human_dist": 0.6775101099590445
+        }
+      }
+    },
+    {
+      "iteration": 54,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 548,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 548,
+          "collision": false,
+          "path_efficiency": 1.450068939806066,
+          "avg_speed": 0.7349650546155215,
+          "path_smoothness": 0.6981647814586376,
+          "change_in_human_acc": 1974,
+          "min_human_dist": 0.6663793434571172
+        }
+      }
+    },
+    {
+      "iteration": 55,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 568,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 568,
+          "collision": false,
+          "path_efficiency": 1.5202685934863134,
+          "avg_speed": 0.7439718360916934,
+          "path_smoothness": 0.6924133023409721,
+          "change_in_human_acc": 1894,
+          "min_human_dist": 0.6647519450955794
+        }
+      }
+    },
+    {
+      "iteration": 56,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 581,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 581,
+          "collision": false,
+          "path_efficiency": 1.5512908326910042,
+          "avg_speed": 0.7409996113787246,
+          "path_smoothness": 0.7987777876289548,
+          "change_in_human_acc": 1901,
+          "min_human_dist": 0.6519394394218633
+        }
+      }
+    },
+    {
+      "iteration": 57,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 600,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "Timeout"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 600,
+          "collision": false,
+          "path_efficiency": 1.545056489387201,
+          "avg_speed": 0.7143125717813955,
+          "path_smoothness": 0.811872251732696,
+          "change_in_human_acc": 2181,
+          "min_human_dist": 0.647869294361607
+        }
+      }
+    },
+    {
+      "iteration": 58,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 557,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 557,
+          "collision": false,
+          "path_efficiency": 1.4770230187230946,
+          "avg_speed": 0.7385867338903395,
+          "path_smoothness": 0.7029326212140206,
+          "change_in_human_acc": 1740,
+          "min_human_dist": 0.7364161609636738
+        }
+      }
+    },
+    {
+      "iteration": 59,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 505,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 505,
+          "collision": false,
+          "path_efficiency": 1.421722952539853,
+          "avg_speed": 0.780724267712116,
+          "path_smoothness": 0.6481578440595132,
+          "change_in_human_acc": 1762,
+          "min_human_dist": 0.7620482049257051
+        }
+      }
+    },
+    {
+      "iteration": 60,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 556,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 556,
+          "collision": false,
+          "path_efficiency": 1.449448487638084,
+          "avg_speed": 0.7243786005548564,
+          "path_smoothness": 0.757908263784074,
+          "change_in_human_acc": 1491,
+          "min_human_dist": 0.6327203327301509
+        }
+      }
+    },
+    {
+      "iteration": 61,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 543,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 543,
+          "collision": false,
+          "path_efficiency": 1.5002188205233176,
+          "avg_speed": 0.7674550085419327,
+          "path_smoothness": 0.6797403538794026,
+          "change_in_human_acc": 1804,
+          "min_human_dist": 0.7116458025252071
+        }
+      }
+    },
+    {
+      "iteration": 62,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 586,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 586,
+          "collision": false,
+          "path_efficiency": 1.5251076284449594,
+          "avg_speed": 0.7240152626734143,
+          "path_smoothness": 0.8069823137543433,
+          "change_in_human_acc": 1880,
+          "min_human_dist": 0.7036608339500168
+        }
+      }
+    },
+    {
+      "iteration": 63,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 549,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 549,
+          "collision": false,
+          "path_efficiency": 1.4864805374453551,
+          "avg_speed": 0.751655879870014,
+          "path_smoothness": 0.7224147705373637,
+          "change_in_human_acc": 1784,
+          "min_human_dist": 0.666468963281669
+        }
+      }
+    },
+    {
+      "iteration": 64,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 370,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "Collision"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 370,
+          "collision": true,
+          "path_efficiency": 1.5581772936016076,
+          "avg_speed": 0.7832757143331339,
+          "path_smoothness": 0.7019376195631062,
+          "change_in_human_acc": 1267,
+          "min_human_dist": 0.5982959983694023
+        }
+      }
+    },
+    {
+      "iteration": 65,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 561,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 561,
+          "collision": false,
+          "path_efficiency": 1.4986221451373773,
+          "avg_speed": 0.741419869156238,
+          "path_smoothness": 0.7358918002480631,
+          "change_in_human_acc": 1723,
+          "min_human_dist": 0.6941166000316407
+        }
+      }
+    },
+    {
+      "iteration": 66,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 536,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 536,
+          "collision": false,
+          "path_efficiency": 1.4349611183229387,
+          "avg_speed": 0.7437944870955003,
+          "path_smoothness": 0.7408563327430212,
+          "change_in_human_acc": 1779,
+          "min_human_dist": 0.6805759761005049
+        }
+      }
+    },
+    {
+      "iteration": 67,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 535,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 535,
+          "collision": false,
+          "path_efficiency": 1.4313875025862222,
+          "avg_speed": 0.7424707187107091,
+          "path_smoothness": 0.7117402795734905,
+          "change_in_human_acc": 1781,
+          "min_human_dist": 0.7147897938127296
+        }
+      }
+    },
+    {
+      "iteration": 68,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 556,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 556,
+          "collision": false,
+          "path_efficiency": 1.4638604731752352,
+          "avg_speed": 0.7306368738908677,
+          "path_smoothness": 0.7344081462108429,
+          "change_in_human_acc": 1571,
+          "min_human_dist": 0.6449237771312627
+        }
+      }
+    },
+    {
+      "iteration": 69,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 511,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 511,
+          "collision": false,
+          "path_efficiency": 1.4116524571972782,
+          "avg_speed": 0.7671362415701931,
+          "path_smoothness": 0.6403323118535106,
+          "change_in_human_acc": 1639,
+          "min_human_dist": 0.6925109681570272
+        }
+      }
+    },
+    {
+      "iteration": 70,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 566,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 566,
+          "collision": false,
+          "path_efficiency": 1.526931633969657,
+          "avg_speed": 0.7490997697278607,
+          "path_smoothness": 0.742634179418131,
+          "change_in_human_acc": 1688,
+          "min_human_dist": 0.6010642884066005
+        }
+      }
+    },
+    {
+      "iteration": 71,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 550,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 550,
+          "collision": false,
+          "path_efficiency": 1.4787001299271378,
+          "avg_speed": 0.7461417820540214,
+          "path_smoothness": 0.7186706317005532,
+          "change_in_human_acc": 1727,
+          "min_human_dist": 0.6570138002472526
+        }
+      }
+    },
+    {
+      "iteration": 72,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 583,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 583,
+          "collision": false,
+          "path_efficiency": 1.5030807480637087,
+          "avg_speed": 0.7162230432097622,
+          "path_smoothness": 0.7948414588951819,
+          "change_in_human_acc": 2023,
+          "min_human_dist": 0.6685710329669375
+        }
+      }
+    },
+    {
+      "iteration": 73,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 566,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 566,
+          "collision": false,
+          "path_efficiency": 1.5470841353107567,
+          "avg_speed": 0.7593246347607797,
+          "path_smoothness": 0.8313737950694272,
+          "change_in_human_acc": 2491,
+          "min_human_dist": 0.6782009637772061
+        }
+      }
+    },
+    {
+      "iteration": 74,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.500290686556611,
+          "avg_speed": 0.7635060482053352,
+          "path_smoothness": 0.71161942185988,
+          "change_in_human_acc": 1794,
+          "min_human_dist": 0.6809546266987789
+        }
+      }
+    },
+    {
+      "iteration": 75,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 543,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 543,
+          "collision": false,
+          "path_efficiency": 1.4466335616171364,
+          "avg_speed": 0.7393595746833723,
+          "path_smoothness": 0.692473330888877,
+          "change_in_human_acc": 1873,
+          "min_human_dist": 0.6982144052086622
+        }
+      }
+    },
+    {
+      "iteration": 76,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 542,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 542,
+          "collision": false,
+          "path_efficiency": 1.4680116954544007,
+          "avg_speed": 0.751653832167078,
+          "path_smoothness": 0.7208856968580424,
+          "change_in_human_acc": 1619,
+          "min_human_dist": 0.6924815317232985
+        }
+      }
+    },
+    {
+      "iteration": 77,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 551,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 551,
+          "collision": false,
+          "path_efficiency": 1.5563483150741597,
+          "avg_speed": 0.7857279165320896,
+          "path_smoothness": 0.7563942737493025,
+          "change_in_human_acc": 1741,
+          "min_human_dist": 0.66654954528489
+        }
+      }
+    },
+    {
+      "iteration": 78,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 600,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "Timeout"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 600,
+          "collision": false,
+          "path_efficiency": 1.6895288521041572,
+          "avg_speed": 0.7263119122641554,
+          "path_smoothness": 0.9278907943883159,
+          "change_in_human_acc": 2169,
+          "min_human_dist": 0.6184845181211633
+        }
+      }
+    },
+    {
+      "iteration": 79,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 533,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 533,
+          "collision": false,
+          "path_efficiency": 1.4646511242412095,
+          "avg_speed": 0.7623560928049767,
+          "path_smoothness": 0.7033916360246121,
+          "change_in_human_acc": 1718,
+          "min_human_dist": 0.7135329257531414
+        }
+      }
+    },
+    {
+      "iteration": 80,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.4633803028167756,
+          "avg_speed": 0.7446004398476155,
+          "path_smoothness": 0.7353616635638195,
+          "change_in_human_acc": 1898,
+          "min_human_dist": 0.6766774213055997
+        }
+      }
+    },
+    {
+      "iteration": 81,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 330,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "Collision"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 330,
+          "collision": true,
+          "path_efficiency": 1.503632681356077,
+          "avg_speed": 0.8430743316277091,
+          "path_smoothness": 0.6778057828680404,
+          "change_in_human_acc": 1283,
+          "min_human_dist": 0.5397321542461124
+        }
+      }
+    },
+    {
+      "iteration": 82,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 563,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 563,
+          "collision": false,
+          "path_efficiency": 1.5090251834901323,
+          "avg_speed": 0.7444522133507995,
+          "path_smoothness": 0.7290215521366477,
+          "change_in_human_acc": 1748,
+          "min_human_dist": 0.6301259802738741
+        }
+      }
+    },
+    {
+      "iteration": 83,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 528,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 528,
+          "collision": false,
+          "path_efficiency": 1.4105144187646845,
+          "avg_speed": 0.7418095403375894,
+          "path_smoothness": 0.6932338192161082,
+          "change_in_human_acc": 1692,
+          "min_human_dist": 0.7471558400437717
+        }
+      }
+    },
+    {
+      "iteration": 84,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 537,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 537,
+          "collision": false,
+          "path_efficiency": 1.4900956900376985,
+          "avg_speed": 0.7696906983797094,
+          "path_smoothness": 0.7113410163731172,
+          "change_in_human_acc": 1986,
+          "min_human_dist": 0.606708633892109
+        }
+      }
+    },
+    {
+      "iteration": 85,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 527,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 527,
+          "collision": false,
+          "path_efficiency": 1.400494319435737,
+          "avg_speed": 0.7385917916837973,
+          "path_smoothness": 0.7205952119422563,
+          "change_in_human_acc": 1486,
+          "min_human_dist": 0.6729796129580821
+        }
+      }
+    },
+    {
+      "iteration": 86,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 527,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 527,
+          "collision": false,
+          "path_efficiency": 1.4870805539278877,
+          "avg_speed": 0.7830018736410393,
+          "path_smoothness": 0.6885516183963509,
+          "change_in_human_acc": 1930,
+          "min_human_dist": 0.7477145864926796
+        }
+      }
+    },
+    {
+      "iteration": 87,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 526,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 526,
+          "collision": false,
+          "path_efficiency": 1.4131192083791253,
+          "avg_speed": 0.7466752861721109,
+          "path_smoothness": 0.6857409250119498,
+          "change_in_human_acc": 1811,
+          "min_human_dist": 0.7225333053700677
+        }
+      }
+    },
+    {
+      "iteration": 88,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 591,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 591,
+          "collision": false,
+          "path_efficiency": 1.5097330932190132,
+          "avg_speed": 0.7118299293997606,
+          "path_smoothness": 0.7435691931463383,
+          "change_in_human_acc": 1759,
+          "min_human_dist": 0.6568180817056525
+        }
+      }
+    },
+    {
+      "iteration": 89,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 594,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 594,
+          "collision": false,
+          "path_efficiency": 1.5619217477719194,
+          "avg_speed": 0.7319687472655446,
+          "path_smoothness": 0.7388915550389871,
+          "change_in_human_acc": 2090,
+          "min_human_dist": 0.7127512233424983
+        }
+      }
+    },
+    {
+      "iteration": 90,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 526,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 526,
+          "collision": false,
+          "path_efficiency": 1.413523757188219,
+          "avg_speed": 0.7469726540059436,
+          "path_smoothness": 0.687674033520993,
+          "change_in_human_acc": 1544,
+          "min_human_dist": 0.7218448993632794
+        }
+      }
+    },
+    {
+      "iteration": 91,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 530,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 530,
+          "collision": false,
+          "path_efficiency": 1.4840708447997322,
+          "avg_speed": 0.7788013822133981,
+          "path_smoothness": 0.7162746806458408,
+          "change_in_human_acc": 1800,
+          "min_human_dist": 0.7092093538081989
+        }
+      }
+    },
+    {
+      "iteration": 92,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 529,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 529,
+          "collision": false,
+          "path_efficiency": 1.4374033455285606,
+          "avg_speed": 0.7546690571246202,
+          "path_smoothness": 0.6672779424189985,
+          "change_in_human_acc": 1619,
+          "min_human_dist": 0.7431441661176393
+        }
+      }
+    },
+    {
+      "iteration": 93,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 596,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 596,
+          "collision": false,
+          "path_efficiency": 1.5640537214951953,
+          "avg_speed": 0.7285053927990834,
+          "path_smoothness": 0.8106029979853447,
+          "change_in_human_acc": 2164,
+          "min_human_dist": 0.6849647928443225
+        }
+      }
+    },
+    {
+      "iteration": 94,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 524,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 524,
+          "collision": false,
+          "path_efficiency": 1.3754925048315445,
+          "avg_speed": 0.7285431717879493,
+          "path_smoothness": 0.6725305341950268,
+          "change_in_human_acc": 1748,
+          "min_human_dist": 0.678457314094606
+        }
+      }
+    },
+    {
+      "iteration": 95,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 568,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 568,
+          "collision": false,
+          "path_efficiency": 1.5120663536869476,
+          "avg_speed": 0.7406645890602777,
+          "path_smoothness": 0.7503086111676688,
+          "change_in_human_acc": 1708,
+          "min_human_dist": 0.6644503444628099
+        }
+      }
+    },
+    {
+      "iteration": 96,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 544,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 544,
+          "collision": false,
+          "path_efficiency": 1.4589786275445402,
+          "avg_speed": 0.745140835056318,
+          "path_smoothness": 0.7201901195879188,
+          "change_in_human_acc": 1556,
+          "min_human_dist": 0.6928744091838231
+        }
+      }
+    },
+    {
+      "iteration": 97,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 536,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 536,
+          "collision": false,
+          "path_efficiency": 1.4000543454899435,
+          "avg_speed": 0.7267226094131642,
+          "path_smoothness": 0.6702845344896717,
+          "change_in_human_acc": 1533,
+          "min_human_dist": 0.7022593215458438
+        }
+      }
+    },
+    {
+      "iteration": 98,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 546,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 546,
+          "collision": false,
+          "path_efficiency": 1.4120342170007432,
+          "avg_speed": 0.7175208610027005,
+          "path_smoothness": 0.7415268055496932,
+          "change_in_human_acc": 2021,
+          "min_human_dist": 0.7124675935628719
+        }
+      }
+    },
+    {
+      "iteration": 99,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 559,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 559,
+          "collision": false,
+          "path_efficiency": 1.465002084960059,
+          "avg_speed": 0.7273378091915981,
+          "path_smoothness": 0.7320707797896064,
+          "change_in_human_acc": 1515,
+          "min_human_dist": 0.699437345225954
+        }
+      }
+    },
+    {
+      "iteration": 100,
+      "sim_params": {
+        "time_step": 0.1,
+        "max_steps": 600,
+        "total_steps": 524,
+        "num_humans": 29,
+        "num_obstacles": 0,
+        "status": "RobotDone"
+      },
+      "metrics": {
+        "robot": {
+          "time_to_goal": 524,
+          "collision": false,
+          "path_efficiency": 1.487309839390771,
+          "avg_speed": 0.7896002577206674,
+          "path_smoothness": 0.7043848717126401,
+          "change_in_human_acc": 1448,
+          "min_human_dist": 0.6530124196327795
+        }
+      }
+    }
+  ]
+}
